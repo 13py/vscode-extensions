@@ -1,19 +1,19 @@
-## vscode-extensions
+## Vscode-extensions
 
 Мой конфиг для работы с python, django, flask, html, css
 
-### сохранине плагинов vscode
+### Сохранение плагинов vscode
 
 code --list-extensions >> vs_code_extensions_list.txt
 
-### установка плагинов vscode из файла
+### Установка плагинов vscode из файла
 
 cat vs_code_extensions_list.txt | xargs -n 1 code --install-extension
 
-### удаление всех плагинов vscode
+### Удаление всех плагинов vscode
 
 code --list-extensions | xargs -n 1 code --uninstall-extension
 
-### текущая тема
+### Текущая тема
 
 bluloco-dark-italic
